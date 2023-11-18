@@ -17,7 +17,7 @@ const Card = (props) => {
               style={{ fontSize: "18px", color: "#F49F0A" }}
               className="heading"
             >
-              <Link href="/pcos" style={{ color: "#F49F0A" }}>
+              <Link href={props.redirect} style={{ color: "#F49F0A" }}>
                 {props.heading}
               </Link>
             </h5>
