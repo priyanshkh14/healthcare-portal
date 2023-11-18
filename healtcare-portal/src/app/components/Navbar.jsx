@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = (props) => {
     return (
-        <nav className="bg-blue-500 p-4">
+        <nav className="bg-black p-3">
             <div className="container mx-auto flex items-center justify-between">
                 <Link href="/" className="text-white text-2xl font-bold">
                     health care portal
