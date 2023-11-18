@@ -140,3 +140,15 @@ body {
     font-family: 'Poppins';
     padding-top: 2%;
 }
+.centredHr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontalHr{
+  width: 30%;
+  background-Color: black;
+  border-Width: 3px;
+  margin: 0;
+  height: 10px;
+}

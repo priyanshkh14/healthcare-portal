@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react'
-
+import Image from 'next/image';
 import '../components/form.css'
 import Navbar from '../components/Navbar';
 export default function DepressionForm() {
@@ -145,7 +145,10 @@ export default function DepressionForm() {
                 : (
                     <div className='fullFrame'>
                         <div className='heading'>Clinical Depression Prediction</div>
-                        <hr style={{ width: '30%', backgroundColor: ' #F49F0A', borderWidth: '3px' }}></hr>
+
+                        <div className="centredHr">
+                            <hr className="horizontalHr" />
+                        </div>
 
                         <div className='center'>
 
@@ -176,7 +179,7 @@ export default function DepressionForm() {
 
 
                                         <button className='arrowButton' onClick={clickHandler}>
-                                            next
+                                           {">"}
                                         </button>
                                     </div>
                                     <div>

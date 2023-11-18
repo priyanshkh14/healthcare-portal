@@ -110,7 +110,9 @@
   .arrowButton{
     border:none;
     background-color: white;
-    color:rgb(155, 208, 233) ;
+    color:black ;
+    font-size: 30px;
+    padding-left: 5px;
   }
   .customSubmitButton{
     background-color: #F49F0A !important;
