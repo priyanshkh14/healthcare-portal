@@ -10,7 +10,7 @@ const Navbar = (props) => {
 
         <ul className="flex space-x-4">
           <li>
-            <Link href="/treatment" className="text-white hover:underline">
+            <Link href="/" className="text-white hover:underline">
               Home
             </Link>
           </li>
