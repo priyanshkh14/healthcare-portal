@@ -22,8 +22,8 @@ const HomePage = () => {
             expanding physician’s ability to care for patients in a quick and
             accurate manner.
           </p>
-          <Link href="/pharmacy">
-            <button className="px-8 py-3 mt-4 font-bold bg-F49F0A rounded-full" style={{color: "blue"}}>
+          <Link href="#services">
+            <button className="round-button">
               Explore
             </button>
           </Link>
@@ -38,8 +38,8 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div className="mt-10 h-100vh">
-        <h1 className="text-center text-3xl">Our Services</h1>
+      <div className="mt-10 h-100vh" style={{marginTop: "110px"}}>
+        <h1 className="text-center text-3xl" id="services">Our Services</h1>
         <div className="cardContainer" style={{paddingTop: "20px", paddingBottom: "30px"}}>
           <Card
             heading="Summarised Report of Symptoms and Treatment"

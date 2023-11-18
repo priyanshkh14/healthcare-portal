@@ -152,3 +152,16 @@ body {
   margin: 0;
   height: 10px;
 }
+.round-button {
+  background-color: #FFA500; /* Orange color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
