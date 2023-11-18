@@ -49,7 +49,7 @@ const HomePage = () => {
               doctors as they will be aware of the patient’s condition and can
               diagnose accordingly."
               imageUrl="/logos/medicine.png"
-              redirect="/diabetes"
+              redirect="#services"
           />
 
           <Card
@@ -60,7 +60,7 @@ const HomePage = () => {
               conditions which do not require direct consultation from doctors
               and can be managed at home."
             imageUrl="/logos/pencil.png"
-            redirect="/pcos"
+            redirect="#services"
           />
           <Card
             heading=" Portal for Exchange of Medical Resources"
@@ -68,7 +68,7 @@ const HomePage = () => {
               information about emergency medical needs like oxygen cylinder,
               blood, bed availability, and medicines."
             imageUrl="/logos/add.png"
-            redirect="/depression"
+            redirect="#services"
           />
         </div>
       </div>
