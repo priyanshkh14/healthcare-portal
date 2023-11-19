@@ -47,7 +47,7 @@ export default function DepressionForm() {
       name: "q17",
     },
     {
-      question: "I felt that life wasn&#39;t worthwhile.",
+      question: "I felt that life wasn't worthwhile.",
       type: "text",
       name: "q21",
     },
@@ -178,7 +178,7 @@ export default function DepressionForm() {
                   your recovery and preventing depression from returning.
                 </p>
                 <a href="https://www.helpguide.org/articles/depression/coping-with-depression.htm">
-                  know more...
+                  Learn more about coping with depression...
                 </a>
               </div>
             </div>
