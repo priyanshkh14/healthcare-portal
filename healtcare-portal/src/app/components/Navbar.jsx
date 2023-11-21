@@ -15,7 +15,7 @@ const Navbar = (props) => {
             </Link>
           </li>
           <li>
-            <Link href="/about" className="text-white hover:underline">
+            <Link href="/symptom" className="text-white hover:underline">
               Treatment and Symptoms Report
             </Link>
           </li>
