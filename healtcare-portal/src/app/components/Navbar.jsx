@@ -25,7 +25,7 @@ const Navbar = (props) => {
             </Link>
           </li>
           <li>
-            <Link href="/about" className="text-white hover:underline">
+            <Link href="http://localhost/login_register/" className="text-white hover:underline">
               Login / SignUp
             </Link>
           </li>

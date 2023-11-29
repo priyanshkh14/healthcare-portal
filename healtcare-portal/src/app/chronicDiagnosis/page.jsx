@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Card from "../components/card";
 
 const ChronicDiagnosis = () => {
+  
   return (
     <>
       <Navbar />
@@ -22,7 +23,7 @@ const ChronicDiagnosis = () => {
             heading="PCOS Prediction"
             text="This feature gives results of over 97 percentage accuracy on the risks of you having PCOS after you have answered a few simple questions regarding your lifestyle up to an accuracy of 97 percent."
             imageUrl="/logos/pencil.png"
-            redirect="/pcos"
+            redirect="pcos.html"
           />
           <Card
             heading="Clinical Depression Prediction"
@@ -30,6 +31,7 @@ const ChronicDiagnosis = () => {
             imageUrl="/logos/add.png"
             redirect="/depression"
           />
+          
         </div>
       </div>
     </>
